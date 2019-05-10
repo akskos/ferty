@@ -6,5 +6,6 @@ Ferty is a keyboard layout similar to the us layout with modifications to enable
 
 - Brackets and braces are placed exactly as in the us layout
 - No Å
+- No dead key
 - AltGr is used instead of Alt R (i thought this was the idea in Swerty as well, but i had to add it to get it work)
 - Apostrophe, double quotation mark, semicolon and colon are accessed by AltGr+{a,s,d,f} respectively
