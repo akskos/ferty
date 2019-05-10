@@ -1,0 +1,27 @@
+Installation instructions: Ferty for Linux
+
+Add the contents of fi.txt to the end of the file /usr/share/X11/xkb/symbols/fi.
+Then look up the following section in the file /usr/share/X11/xkb/rules/evdev.xml:
+
+    <layout>
+      <configItem>
+        <name>fi</name>
+        <shortDescription>Fi</shortDescription>
+        <description>Finnish</description>
+        <languageList><iso639Id>fi</iso639Id></languageList>
+      </configItem>
+      <variantList>
+
+Add the following variant block after the line <variantList>:
+
+        <variant>
+          <configItem>
+            <name>ferty</name>
+            <description>Ferty</description>
+          </configItem>
+        </variant>
+
+Finally, after the line "! variant" in the file /usr/share/X11/xkb/rules/evdev.lst add the following line:
+  ferty          fi: Ferty
+
+Now Ferty should show up as one of the alternative keyboard layouts for Finnish. 
