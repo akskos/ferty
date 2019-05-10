@@ -28,8 +28,8 @@ xkb_symbols "ferty" {
     key <AD08>	{ [         i,          I 		     ]	};
     key <AD09>	{ [         o,          O,  braceleft	     ]	};
     key <AD10>	{ [         p,          P,  braceright 	     ]	};
-    key <AD11>	{ [	    aring,  Aring,  bracketleft,  braceleft ]  };
-    key <AD12>	{ [dead_acute, dead_grave,  bracketright,  braceright ]  };
+    key <AD11>	{ [	    bracketleft,  braceleft ]  };
+    key <AD12>	{ [     bracketright, braceright ]  };
     key <AC01>	{ [         a,          A, apostrophe   		     ]	};
     key <AC02>	{ [         s,          S, quotedbl 		     ]	};
     key <AC03>	{ [         d,          D, semicolon 		     ]	};
