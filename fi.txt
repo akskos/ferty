@@ -53,4 +53,6 @@ xkb_symbols "ferty" {
     key <AB08>	{ [     comma,       less  		     ]	};
     key <AB09>	{ [    period,    greater,  colon	     ]	};
     key <AB10>	{ [     slash,   question 		     ] 	};
+
+    include "level3(ralt_switch)"
 };
