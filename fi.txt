@@ -34,7 +34,7 @@ xkb_symbols "ferty" {
     key <AC02>	{ [         s,          S, quotedbl 		     ]	};
     key <AC03>	{ [         d,          D, semicolon 		     ]	};
     key <AC04>	{ [         f,          F, colon 		     ]	};
-    key <AC05>	{ [         g,          G 		     ]	};
+    key <AC05>	{ [         g,          G, Multi_key 		     ]	};
     key <AC06>	{ [         h,          H 		     ]	};
     key <AC07>	{ [         j,          J 		     ]	};
     key <AC08>	{ [         k,          K 		     ]	};
