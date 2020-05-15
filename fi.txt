@@ -18,13 +18,13 @@ xkb_symbols "ferty" {
     key <AE11>	{ [     minus, underscore,  dead_diaeresis,  dead_circumflex ]  };
     key <AE12>	{ [     equal,       plus,  dead_tilde 	     ]	};
 
-    key <AD01>	{ [         q,          Q   		     ] 	};
-    key <AD02>	{ [         w,          W 		     ]	};
-    key <AD03>	{ [         e,          E,  EuroSign  	     ]	};
-    key <AD04>	{ [         r,          R   		     ]	};
-    key <AD05>	{ [         t,          T 		     ]	};
+    key <AD01>	{ [         q,          Q, agrave, Agrave   		     ] 	};
+    key <AD02>	{ [         w,          W, ae, AE 		     ]	};
+    key <AD03>	{ [         e,          E,  eacute, Eacute  	     ]	};
+    key <AD04>	{ [         r,          R, egrave, Egrave   		     ]	};
+    key <AD05>	{ [         t,          T, ecircumflex, Ecircumflex 		     ]	};
     key <AD06>	{ [         y,          Y 		     ]	};
-    key <AD07>	{ [         u,          U 		     ]	};
+    key <AD07>	{ [         u,          U, ugrave, Ugrave 		     ]	};
     key <AD08>	{ [         i,          I 		     ]	};
     key <AD09>	{ [         o,          O,  braceleft	     ]	};
     key <AD10>	{ [         p,          P,  braceright 	     ]	};
